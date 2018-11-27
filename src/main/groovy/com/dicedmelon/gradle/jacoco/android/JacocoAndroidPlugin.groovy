@@ -100,7 +100,6 @@ class JacocoAndroidPlugin implements Plugin<ProjectInternal> {
   private void logTaskAdded(JacocoReport reportTask) {
     logger.info("Added $reportTask")
     logger.info("  executionData: $reportTask.executionData.asPath")
-    logger.info("  classDirectories: $reportTask.classDirectories.dir.path")
     logger.info("  sourceDirectories: $reportTask.sourceDirectories.asPath")
   }
 }
